@@ -1,0 +1,20 @@
+{ 
+   "manifest_version": 2, 
+   "name": "Telegram Sidebar", 
+   "version": "1.0", 
+   "description": "Open Telegram Web in the Firefox sidebar", 
+   "icons": { 
+      "48": "icons/telegram-48.png" 
+   }, 
+   "applications": {
+      "gecko": {
+        "id": "telegram@example.com"
+      }
+    },
+   "sidebar_action": {
+      "default_icon": "icons/telegram-48.png",
+      "default_title" : "Telegram",
+      "default_panel": "telegram-sb.htm"
+  },
+  "permissions": ["storage"]
+}
